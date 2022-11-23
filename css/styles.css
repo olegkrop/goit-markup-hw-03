@@ -1,0 +1,235 @@
+:root {
+  --text-color: #757575;
+  --accent-color: #2196f3;
+  /* Бо ментор проти 
+  --backgroung-color: #F5F5F5;
+  */
+  --title-color: #212121;
+  --white-color: #fff;
+  --black-color: #000;
+  --hero-background: #2F303A;
+  --team-background: #F5F4FA;
+  --works-background: #EEEEEE;
+  --dark-address: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  /* Бо ментор проти 
+  background-color: var(--backgroung-color);
+  */
+  color: var(--text-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.finger {
+  cursor: pointer;
+}
+
+/* Section Header */
+.section-header {
+  background-color: var(--white-color);
+}
+
+/* Site logo */
+.logo {
+  font-family: Raleway, sans-serif;
+  color: var(--black-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.38;
+  letter-spacing: 0.03em;
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+
+.logo-left {
+  color: var(--accent-color);
+}
+
+.logo-white {
+  color: var(--white-color);
+}
+
+/* Site nav */
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+
+.site-nav.current {
+  color: var(--accent-color);
+}
+
+.site-nav:hover,
+.site-nav:focus {
+  color: var(--accent-color);
+}
+
+.site-nav.email-phone {
+  color: var(--text-color);
+}
+
+.site-nav.email-phone:hover,
+.site-nav.email-phone:focus {
+  color: var(--accent-color);
+}
+
+/* Section Hero */
+
+.hero {
+  background-color: var(--hero-background);
+  text-align: center;
+}
+
+.hero-title {
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.button {
+  font-family: inherit;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88em;
+  letter-spacing: 0.06em;
+}
+
+/* Section Advantages */
+.section-advant h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
+.section-advant p {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* Header syle for <h2> */
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.174;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+
+/* Section What We Do */
+
+/* Section Our Team */
+.team {
+  background-color: var(--team-background);
+}
+
+.team li {
+  background-color: var(--white-color);
+}
+
+.team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+
+.team p {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Site footer */
+.site-footer {
+  background-color: var(--hero-background);
+}
+
+.contact {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--accent-color);
+}
+
+.darkened {
+  color: var(--dark-address);
+}
+
+/* Filter buttons for the list of works */
+.filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+  background-color: var(--team-background);
+  font-family: inherit;
+}
+
+.filter:hover,
+.filter:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+/* The list of works */
+.works {
+  list-style: none;
+}
+
+.works a {
+  text-decoration: none;
+}
+
+.works h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+  background-color: var(--white-color);
+}
+
+.works p {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+  background-color: var(--white-color);
+}
