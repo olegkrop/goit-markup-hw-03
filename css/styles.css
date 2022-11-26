@@ -39,9 +39,8 @@ img {
   display: block;
 }
 
-.flexit {
-  display: flex;
-  margin: auto;
+img {
+  display: block;
 }
 
 body {
@@ -51,6 +50,14 @@ body {
   color: var(--text-color);
   font-family: Roboto, sans-serif;
   font-style: normal;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
 }
 
 .finger {
@@ -63,6 +70,7 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 /* Section Header */
