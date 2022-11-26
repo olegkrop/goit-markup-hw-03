@@ -41,6 +41,7 @@ img {
 
 .flexit {
   display: flex;
+  margin: auto;
 }
 
 body {
@@ -56,6 +57,14 @@ body {
   cursor: pointer;
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Section Header */
 .section-header {
   background-color: var(--white-color);
@@ -69,6 +78,7 @@ body {
   font-size: 26px;
   line-height: 1.38;
   letter-spacing: 0.03em;
+  margin-right: 93px;
 }
 
 .logo:hover,
@@ -91,6 +101,10 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-color);
+}
+
+.site-nav.margin:not(:last-child) {
+  margin-right: 50px;
 }
 
 .site-nav.current {

@@ -22,38 +22,44 @@
   <body>
     <!--Заголовок-->
     <header class="section-header">
-      <nav>
-        <a class="logo link" href="./index.html"
-          ><span class="logo-left">Web</span>Studio</a
-        >
-        <ul class="list">
+      <div class="container">
+        <nav>
+          <a class="logo link" href="./index.html"
+            ><span class="logo-left">Web</span>Studio</a
+          >
+          <ul>
+            <li>
+              <a href="./index.html" class="current site-nav link">Студія</a>
+            </li>
+            <li>
+              <a href="./portfolio.html" class="site-nav link">Портфоліо</a>
+            </li>
+            <li><a href="#contacts" class="site-nav link">Контакти</a></li>
+          </ul>
+        </nav>
+        <ul>
           <li>
-            <a href="./index.html" class="current site-nav link">Студія</a>
+            <a
+              href="mailto:info@devstudio.com"
+              class="site-nav link email-phone"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a href="./portfolio.html" class="site-nav link">Портфоліо</a>
+            <a href="tel:+380961111111" class="site-nav link email-phone"
+              >+38 096 111 11 11</a
+            >
           </li>
-          <li><a href="#contacts" class="site-nav link">Контакти</a></li>
         </ul>
-      </nav>
-      <ul class="list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="site-nav link email-phone"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="site-nav link email-phone"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
       <!--Секція Hero-->
-      <section class="hero">
-        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="button finger">Замовити послугу</button>
+      <section class="hero container">
+        <div class="container">
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="button finger">Замовити послугу</button>
+        </div>
       </section>
 
       <!--Секція Наші переваги-->
