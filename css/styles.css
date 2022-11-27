@@ -39,10 +39,6 @@ img {
   display: block;
 }
 
-img {
-  display: block;
-}
-
 body {
   /* Бо ментор проти 
   background-color: var(--backgroung-color);
@@ -70,7 +66,6 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 /* Section Header */
@@ -103,16 +98,25 @@ body {
 }
 
 /* Site nav */
+.nav-flex {
+  display: flex;
+  padding-left: 0;
+}
+
+.nav-flex .item {
+  margin-right: 50px;
+}
+
+.nav-flex .item:last-child {
+  margin-right: 0;
+}
+
 .site-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-color);
-}
-
-.site-nav.margin:not(:last-child) {
-  margin-right: 50px;
 }
 
 .site-nav.current {
@@ -138,6 +142,8 @@ body {
 .hero {
   background-color: var(--hero-background);
   text-align: center;
+  padding: 200px 0;
+  margin-top: 94px;
 }
 
 .hero-title {
@@ -147,7 +153,9 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
+
 
 .button {
   font-family: inherit;
@@ -157,9 +165,19 @@ body {
   font-size: 16px;
   line-height: 1.88em;
   letter-spacing: 0.06em;
+
+  min-width: 216px;
+  min-height: 50px;
+  border-radius: 4px;
+  padding: 10px 32px;
+  border: 1px solid transparent;
 }
 
 /* Section Advantages */
+.section-advant {
+  margin-top: 94px;
+}
+
 .section-advant h3 {
   font-weight: 700;
   font-size: 14px;
@@ -183,13 +201,43 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
+  margin-bottom: 50px;
 }
 
 /* Section What We Do */
+.wwd {
+  margin-top: 94px;
+}
+
+.wwd-flex {
+  display: flex;
+}
+
+.wwd-flex .item {
+  margin-right: 30px;
+}
+
+.wwd-flex .item:last-child {
+  margin-right: 0;
+}
 
 /* Section Our Team */
 .team {
   background-color: var(--team-background);
+  margin-top: 94px;
+}
+
+.team .flex {
+  display: flex;
+}
+
+.team .item {
+  margin-right: 30px;
+  padding-bottom: 30px;
+}
+
+.team .item:last-child {
+  margin-right: 0;
 }
 
 .team li {
@@ -203,6 +251,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
+  margin: 30px 0 10px;
 }
 
 .team p {
@@ -215,6 +264,13 @@ body {
 /* Site footer */
 .site-footer {
   background-color: var(--hero-background);
+  padding: 60px 0;
+  margin-top: 94px;
+}
+
+.site-footer .push-down {
+  margin-bottom: 20px;
+  margin-right: 0;
 }
 
 .contact {
@@ -244,7 +300,14 @@ body {
   color: var(--title-color);
   background-color: var(--team-background);
   font-family: inherit;
+  display: inline-block;
+  min-width: 73px;
+  min-height: 38px;
+  border-radius: 4px;
+  padding: 6px 22px;
+  border: 1px solid transparent;
 }
+
 
 .filter:hover,
 .filter:focus {
@@ -255,6 +318,40 @@ body {
 /* The list of works */
 .works {
   list-style: none;
+
+}
+
+.works .flex {
+  display: flex;
+  justify-content: center;
+  margin: 144px 0 44px;
+}
+
+.works .btn {
+  margin-right: 8px;
+  margin-bottom: 16px;
+}
+
+.works .btn:last-child {
+  margin-right: 0;
+}
+
+.works .item {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.works .item:nth-child(3n + 3) {
+  margin-right: 0;
+}
+
+.works .item:last-child {
+  margin-right: 0;
+}
+
+.catalogue {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .works a {
@@ -268,6 +365,7 @@ body {
   letter-spacing: 0.06em;
   color: var(--title-color);
   background-color: var(--white-color);
+  margin: 20px 24px 4px;
 }
 
 .works p {
@@ -276,4 +374,5 @@ body {
   letter-spacing: 0.03em;
   color: var(--text-color);
   background-color: var(--white-color);
+  margin: 0 24px 4px;
 }
