@@ -68,12 +68,24 @@ body {
   margin-right: auto;
 }
 
-/* Section Header */
+.section {
+  padding: 0 0 94px;
+}
+
+.make-flex {
+  display: flex;
+}
+
 .section-header {
   background-color: var(--white-color);
+  border-bottom: #ECECEC solid 1px;
 }
 
 /* Site logo */
+.make-flex .center {
+  align-items: center;
+}
+
 .logo {
   font-family: Raleway, sans-serif;
   color: var(--black-color);
@@ -82,6 +94,7 @@ body {
   line-height: 1.38;
   letter-spacing: 0.03em;
   margin-right: 93px;
+  padding: 24px 0 25px;
 }
 
 .logo:hover,
@@ -98,25 +111,20 @@ body {
 }
 
 /* Site nav */
-.nav-flex {
-  display: flex;
-  padding-left: 0;
-}
-
-.nav-flex .item {
-  margin-right: 50px;
-}
-
-.nav-flex .item:last-child {
-  margin-right: 0;
-}
-
 .site-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-color);
+}
+
+.section-header .item {
+  margin-right: 50px;
+}
+
+.section-header .item:last-child {
+  margin-right: 0;
 }
 
 .site-nav.current {
@@ -128,13 +136,21 @@ body {
   color: var(--accent-color);
 }
 
-.site-nav.email-phone {
+.section-header .email-phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--text-color);
 }
 
-.site-nav.email-phone:hover,
-.site-nav.email-phone:focus {
+.email-phone:hover,
+.email-phone:focus {
   color: var(--accent-color);
+}
+
+.section-header .flexible {
+  margin-left: auto;
 }
 
 /* Section Hero */
@@ -143,7 +159,6 @@ body {
   background-color: var(--hero-background);
   text-align: center;
   padding: 200px 0;
-  margin-top: 94px;
 }
 
 .hero-title {
@@ -182,6 +197,7 @@ body {
 .section-advant .flex {
   display: flex;
 }
+
 .section-advant .item {
   margin-right: 30px;
 }
@@ -189,6 +205,7 @@ body {
 .section-advant .item:last-child {
   margin-right: 0;
 }
+
 .section-advant h3 {
   font-weight: 700;
   font-size: 14px;
@@ -218,7 +235,7 @@ body {
 
 /* Section What We Do */
 .wwd {
-  margin-top: 94px;
+  margin-top: 0;
 }
 
 .wwd-flex {
@@ -236,7 +253,6 @@ body {
 /* Section Our Team */
 .team {
   background-color: var(--team-background);
-  margin-top: 94px;
 }
 
 .team .flex {
@@ -246,6 +262,7 @@ body {
 .team .item {
   margin-right: 30px;
   padding-bottom: 30px;
+    border-bottom: red solid 15px;
 }
 
 .team .item:last-child {
@@ -277,7 +294,6 @@ body {
 .site-footer {
   background-color: var(--hero-background);
   padding: 60px 0;
-  margin-top: 94px;
 }
 
 .site-footer .push-down {
@@ -330,13 +346,12 @@ body {
 /* The list of works */
 .works {
   list-style: none;
-
+  padding: 146px 0 44px;
 }
 
 .works .flex {
   display: flex;
   justify-content: center;
-  margin: 144px 0 44px;
 }
 
 .works .btn {
@@ -351,6 +366,7 @@ body {
 .works .item {
   margin-right: 30px;
   margin-bottom: 30px;
+  border-bottom : var(--works-background) 1px solid;
 }
 
 .works .item:nth-child(3n + 3) {
