@@ -94,7 +94,7 @@ body {
   line-height: 1.38;
   letter-spacing: 0.03em;
   margin-right: 93px;
-  padding: 24px 0 25px;
+
 }
 
 .logo:hover,
@@ -185,7 +185,6 @@ body {
   min-height: 50px;
   border-radius: 4px;
   padding: 10px 32px;
-  border: 1px solid transparent;
 }
 
 /* Section Advantages */
@@ -287,6 +286,7 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+  margin: 0 0 30px;
 }
 
 /* Site footer */
@@ -345,7 +345,7 @@ body {
 /* The list of works */
 .works {
   list-style: none;
-  padding: 146px 0 44px;
+  padding: 94px 0 44px;
 }
 
 .works .flex {
@@ -362,44 +362,46 @@ body {
   margin-right: 0;
 }
 
-.works .item {
-  margin-right: 30px;
-  margin-bottom: 30px;
-  border-bottom : var(--works-background) 1px solid;
-}
-
-.works .item:nth-child(3n + 3) {
-  margin-right: 0;
-}
-
-.works .item:last-child {
-  margin-right: 0;
-}
-
 .catalogue {
   display: flex;
   flex-wrap: wrap;
 }
 
-.works a {
+.catalogue .item {
+  margin-right: 20px;
+  margin-bottom: 30px;
+  border-bottom: var(--works-background) 1px solid;
+}
+
+.catalogue .item:nth-child(3n + 3) {
+  margin-right: 0;
+}
+
+.catalogue .item:last-child {
+  margin-right: 0;
+}
+
+
+
+.catalogue a {
   text-decoration: none;
 }
 
-.works h3 {
+.catalogue h3 {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-color);
   background-color: var(--white-color);
-  margin: 20px 24px 4px;
+  margin: 20px 0 14px;
 }
 
-.works p {
+.catalogue p {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--text-color);
   background-color: var(--white-color);
-  margin: 0 24px 4px;
+  margin: 0 0 20px;
 }
