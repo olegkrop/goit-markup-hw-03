@@ -262,7 +262,6 @@ body {
 .team .item {
   margin-right: 30px;
   padding-bottom: 30px;
-    border-bottom: red solid 15px;
 }
 
 .team .item:last-child {
