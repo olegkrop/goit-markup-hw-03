@@ -367,27 +367,27 @@ body {
   flex-wrap: wrap;
 }
 
-.catalogue .item {
+.works .item {
   margin-right: 20px;
   margin-bottom: 30px;
   border-bottom: var(--works-background) 1px solid;
 }
 
-.catalogue .item:nth-child(3n + 3) {
+.works .item:nth-child(3n + 3) {
   margin-right: 0;
 }
 
-.catalogue .item:last-child {
+.works .item:last-child {
   margin-right: 0;
 }
 
 
 
-.catalogue a {
+.works a {
   text-decoration: none;
 }
 
-.catalogue h3 {
+.works h3 {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -397,7 +397,7 @@ body {
   margin: 20px 0 14px;
 }
 
-.catalogue p {
+.works p {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
